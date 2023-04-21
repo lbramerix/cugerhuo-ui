@@ -2,8 +2,8 @@
   <el-container>
     <!-- width的宽度跟collapse一样动态控制 -->
     <el-aside width="collapse">
-      <div class="logo" v-show="open"><h4><i class="el-icon-eleme"></i>CUG贰货后台管理系统</h4></div>
-      <div class="logo" v-show="close"><h4><i class="el-icon-eleme"></i></h4></div>
+      <div class="logo" v-show="open"><h3><i class="el-icon-eleme"></i>CUG贰货后台管理系统</h3></div>
+      <div class="logo" v-show="close"><h3><i class="el-icon-eleme"></i></h3></div>
       <!-- :collapse="isCollapse"  class="el-menu-vertical" 动态控制导航菜单的收起与展开  router：让index作为 path 进行路由跳转 -->
       <el-menu default-active="$route.path"
                router
